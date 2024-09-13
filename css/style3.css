@@ -1,0 +1,205 @@
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+    .wrapper{
+        width: 50%;
+        height: 700px;
+        border: 1px solid black
+    }
+    header{
+        width: 100%;
+        height:60px;
+        border: 1px solid gold;
+    }
+    nav{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+        height:570px;
+    }
+    footer{
+        width: 100%;
+        height:50px;
+    }
+    header {
+        background-color: rgb(164, 67, 32)
+    }
+    header h1{
+        color:rgb(140, 114, 12);
+        transform: scaleY(0.8);
+        font-size: 30px;
+        padding-top: 10px;
+        padding-left: 10px;;
+        text-shadow: 5px 2px 5px white;
+    }
+    nav li{
+        display: inline;
+        margin-left: 25px;
+
+    }
+    nav li a {
+        text-decoration: none;
+        color:brown;
+    }
+    .content .photo1 img{
+        height:100px;
+        width: 100%;
+    }
+    .text{
+        padding-top: 25px;
+    }
+    .section-left{
+        width: 65%;
+        float:left;
+        border-right: 1px solid gainsboro ;
+    }
+    .section-right{
+        width: 35%;
+        float:left;
+    }
+    .content-left h1{
+        color:rgb(195, 155, 12);
+        font-size: 18px;
+        transform: scaleY(0.9);
+        letter-spacing: 1px;
+        padding-left: 10px;;
+    }
+    .content-left p{
+        color:rgb(140, 114, 12);
+        transform: scaleY(0.9);
+        font-style: italic;
+        padding-left: 50px;
+        padding-right: 55px;
+    }
+    form{
+        padding-top: 50px;
+        padding-left: 40px;
+        
+    }
+    .section-left #list input{
+        width: 80%;
+        margin: 15px;
+        border: none;
+        border-bottom: 1px solid ;
+    }
+    .section-left #sign input{
+        margin-top: 15px;
+        margin-left:15px ;
+        background-color: rgb(124, 155, 28);
+        width: 100px;
+        height: 30px;
+        border: none;
+        color:white
+    }
+    .section-right .links{
+        background-color:rgb(235, 214, 189) ;
+        width: 90%;
+        height: 50%;
+        border-top-left-radius: 20px ;
+        border-top-right-radius: 20px ;
+        margin-left: 13px;;
+    }
+    .section-right h2{
+        font-size: 20px;
+        transform: scaleY(0.8);
+        letter-spacing: 1px;
+        color: rgb(50, 41, 19);
+        padding-left: 20px;
+        padding-bottom: 12px;;
+    }
+    .section-right .links .menu2 {
+        padding-left: 50px;
+        list-style-type: square;
+
+        color:rgb(195, 125, 34);
+    }
+    .section-right .links .menu2 a{
+        color: rgb(195, 125, 34);
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .paragraph{
+        padding-top: 10px;;
+        padding-left: 20px;;
+        padding-right: 10px;
+    }
+    .section-right .info h2{
+        padding-top: 16px;;
+    }
+    .section-right .info img{
+       padding-left: 20px;
+        width: 70px;
+        border: 1px solid gainsboro;
+        padding: 7px;
+        float:left;
+        margin-right: 10px;
+    }
+    .section-right .info p{
+        padding-left: 2px;;
+       
+    }
+    .section-right .info .paragraph .minitext{
+        position: 500px;;
+    }
+    footer p{
+        text-align: center;
+        padding-top: 18px;
+    }
+    footer .pt3{
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        margin-top: -16px;
+    }
+    footer .pt4{
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        margin-top: -36px;
+    }
+    footer .pt5{
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        margin-top: -36px;
+        margin-left: 50px;
+    }
+    footer .pt6{
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        margin-top: -36px;
+        margin-left: 210px;
+    }
+    footer .pt7{
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        margin-top: -36px;
+        margin-left: 370px;
+    }
+    footer .pt8{
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        margin-top: -36px;
+        margin-left: 485px;
+    }
+    footer .pt9{
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        margin-top: -35px;
+        margin-left: 637px;
+    }
+    footer .pt10{
+        position: absolute;
+        width: 50px;
+        height: 30px;
+        margin-top: -17px;
+        margin-left: 637px;
+    }
